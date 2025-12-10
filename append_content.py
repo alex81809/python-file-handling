@@ -8,7 +8,7 @@ data = f2.read()
 f2.close()
 
 # open the first file and add the second file's content to it 
-f1 = open(firstfile, 'r')
+f1 = open(firstfile, 'a')
 f1.write(data)
 f1.close()
 
